@@ -1,4 +1,4 @@
-package ar.com.educacionit.springrestsocios;
+package ar.com.educacionit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringRestSociosApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hola mundo desde vscode");
 		SpringApplication.run(SpringRestSociosApplication.class, args);
 	}
 
